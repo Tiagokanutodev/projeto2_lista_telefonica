@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: 0;                                     /*RESET*/
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+    background-color: #fff;                   /*FUNDO*/
+    padding-top: 100px;                         /*distancia do (calculadora de medidas) para o topo*/
+}
+
+header                                             /*CABEÇALHO*/
+{
+    display: flex;               /*para q fique um ao lado do outro*/
+    align-items: center;         /*centro*/ 
+    margin-bottom: 40px;         /*margim*/
+}
+
+header img                       /*logo chapeu*/   
+{
+    height: 36px;
+    margin-right: 16px;     
+}
+
+header h1
+{
+    font-size: 40px;            /*mexendo no H1 (CALCULADORA DE MEDIDAS)*/  
+    font-weight: bold;          /*FONTE*/ 
+}
+
+.container
+{
+    max-width: 960px;           /*resoluçao*/       
+    width: 100;
+    margin: 0 auto;
+}
+
+form
+{
+    display: flex;              /*ajuste*/ 
+    max-width: 640px;                    /*padrao*/
+    width: 100%;            
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+form input                      /*BOTOES*/
+{
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #000;    /*borda de baixo ou inferior*/
+    padding: 8px;
+    margin-right: 20px;
+}
+
+form button
+{
+    background-color: #009432;      /*cor do botao*/
+    color: #fff;                    /*cor fonte*/  
+    font-size: 25px;                  /*tamanho da fonte*/
+    font-weight: bold;                /*modelo da fonte*/
+    border: none;                     /*removendo borda*/
+    cursor: pointer;                  /*maouse MAOZINHA*/   
+    padding: 2px;    
+}
+
+table
+{
+    width: 100%;
+}
+
+table th       /*Cabeçalho estilo*/
+{
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24;
+    font-weight: bold;
+}
+
+table td
+{
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+table td img
+{
+    height: 30px;
+}
+
+
